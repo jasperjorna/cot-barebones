@@ -1,0 +1,28 @@
+/* 1. Errors
+-------------------------------------------------- */
+div.error, div.warning, div.done, div.help { line-height: 2em; margin: 20px 0; padding: 10px 50px; background-position: 15px 50%; background-repeat: no-repeat; clear: both;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; }
+div.error { color: #d8000c; background-color: #ffbaba; background-image: url(../../../images/icons/default/error.png); border: 1px solid #d8000c; }
+div.warning { color: #9f6000; background-color: #feefb3; background-image: url(../../../images/icons/default/warning.png); border: 1px solid #9f6000; }
+div.done { color: #4f8a10; background-color: #dff2bf; background-image: url(../../../images/icons/default/done.png); border: 1px solid #4f8a10; }
+div.help { color: #00529b; background-color: #bde5f8; background-image: url(../../../images/icons/default/help.png); border: 1px solid #00529b; }
+
+/* 2. Pagination
+-------------------------------------------------- */
+.paging     { margin: 10px 0 10px 0; text-align: center; font-size: .9em; }
+.pagenav_prev, .pagenav_next, .pagenav_first, .pagenav_last, .pagenav_pages, .pagenav_current { padding: 2px 2px; margin: 1px;  }
+.pagenav_prev a, .pagenav_next a, .pagenav_first a, .pagenav_last a, .pagenav_pages a   { border: 1px solid #ccc; padding: 1px 5px; margin: 0px; -moz-border-radius: 3px;
+border-radius: 3px; color: #383838; background-color: #f7f7f7; text-decoration: none; }
+.pagenav_prev a:hover, .pagenav_next a:hover, .pagenav_first a:hover, .pagenav_last a:hover, .pagenav_pages a:hover { background: #eaeef1; }
+.pagenav_current    { color: #555; border: 1px solid #d8503a; padding: 2px 5px; margin: 0px; -moz-border-radius: 3px;
+border-radius: 3px; color: #868686; background-color: #d8503a; text-decoration: none; }
+.pagenav_current a  { color: white; text-decoration: none; }
+.pagenav_small      { text-align: right; font-size: .9em; }
+.spaced				{ border: none!important; margin: 0 8px!important; padding: 0!important; }
+
+/* 3. Various
+-------------------------------------------------- */
+.odd  { background-color: #fff!important; }
+.even { background-color: #f1f1f1!important; }
