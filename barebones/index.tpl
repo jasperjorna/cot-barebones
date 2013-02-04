@@ -3,7 +3,7 @@
     <div class="hero-unit">
       <h1>Cotonti</h1>
       <p>Cotonti is a powerful open-source web development framework and content manager with a focus on security, speed and flexibility.</p>
-      <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      <p><a href="http://www.cotonti.com" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
     </div><!-- /hero-unit -->
 
     <!-- Example row of columns -->
@@ -33,6 +33,7 @@
     </div><!-- /row-fluid -->
     <!-- ENDIF -->
 
+    <hr>
     <div class="row-fluid">
     <!-- IF {RECENT_PAGES} -->
       <div class="span4">
