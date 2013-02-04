@@ -1,12 +1,14 @@
 <!-- BEGIN: MAIN -->
-    <div class="span12">
-      <h2>{USERS_DETAILS_NAME}<!-- BEGIN: USERS_DETAILS_ADMIN --> &nbsp; [ {USERS_DETAILS_ADMIN_EDIT} ]<!-- END: USERS_DETAILS_ADMIN -->
-        <!-- IF {USERS_DETAILS_ONLINE} == 1 -->
-        <span class="label label-success pull-right">{PHP.L.Online}</span>
-      <!-- ELSE -->
-        <span class="label pull-right">{PHP.L.Offline}</span>
-      <!-- ENDIF --></h2>
-    </div><!-- /span12 -->
+    <div class="row-fluid">
+      <div class="span12">
+        <h2>{USERS_DETAILS_NAME}<!-- BEGIN: USERS_DETAILS_ADMIN --> &nbsp; [ {USERS_DETAILS_ADMIN_EDIT} ]<!-- END: USERS_DETAILS_ADMIN -->
+          <!-- IF {USERS_DETAILS_ONLINE} == 1 -->
+          <span class="label label-success pull-right">{PHP.L.Online}</span>
+        <!-- ELSE -->
+          <span class="label pull-right">{PHP.L.Offline}</span>
+        <!-- ENDIF --></h2>
+      </div><!-- /span12 -->
+    </div><!-- /row-fluid -->
     <div class="row-fluid">
       <div class="span2 textcenter">
         {USERS_DETAILS_AVATAR}

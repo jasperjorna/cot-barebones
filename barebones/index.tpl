@@ -33,15 +33,21 @@
     </div><!-- /row-fluid -->
     <!-- ENDIF -->
 
-    <!-- IF {RECENT_PAGES} OR {RECENT_FORUMS} -->
     <div class="row-fluid">
-      <div class="span6">
+    <!-- IF {RECENT_PAGES} -->
+      <div class="span4">
         {RECENT_PAGES}
-      </div><!-- /span6 -->
-
-      <div class="span6">
-        {RECENT_FORUMS}
-      </div><!-- /span6 -->
-    </div><!-- /row-fluid -->
+      </div><!-- /span4 -->
     <!-- ENDIF -->
+    <!-- IF {RECENT_FORUMS} -->
+      <div class="span4">
+        {RECENT_FORUMS}
+      </div><!-- /span4 -->
+    <!-- ENDIF -->
+    <!-- IF {INDEX_POLLS} -->
+      <div class="span4">
+        {INDEX_POLLS}
+      </div><!-- /span4 -->
+    <!-- ENDIF -->
+    </div><!-- /row-fluid -->
 <!-- END: MAIN -->
