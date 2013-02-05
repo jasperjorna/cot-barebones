@@ -38,8 +38,8 @@
             <li class="<!-- IF {PHP.m} == 'users' OR {PHP.env.ext} == 'users' -->active<!-- ENDIF -->"><a href="{PHP|cot_url('users')}">{PHP.L.Users}</a></li>
           </ul><!-- /nav -->
 
+          <!-- BEGIN: USER -->
           <ul class="nav pull-right">
-            <!-- BEGIN: USER -->
             <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">{HEADER_USER_NAME}&nbsp;&nbsp;&nbsp;<i class="icon-circle-arrow-down icon-white"></i></a>
               <ul class="dropdown-menu">
@@ -52,12 +52,12 @@
                 <li><a href="{PHP.sys.xk|cot_url('login', 'out=1&x=$this', '', 0, 1)}" id="logout" title="{PHP.L.Logout}">{PHP.L.Logout}</a></li>
               </ul>
             </li>
-            <!-- END: USER -->
           </ul><!-- /nav -->
+          <!-- END: USER -->
 
           <!-- BEGIN: GUEST -->
           <form class="navbar-form pull-right" action="{PHP|cot_url('login', 'a=check', '', 0, 1)}" method="post">
-            <input class="span2" type="text" name="rusername" maxlength="32" placeholder="{PHP.L.Email}" />
+            <input class="span2" type="text" name="rusername" maxlength="32" placeholder="{PHP.L.Username}" />
             <input class="span2" type="password" name="rpassword" maxlength="32" placeholder="{PHP.L.Password}" />
             <input type="hidden" name="rremember" value="1" />
             <button type="submit" class="btn">{PHP.L.Login}</button>
