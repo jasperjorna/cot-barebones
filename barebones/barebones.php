@@ -2,7 +2,7 @@
 /* ====================
 [BEGIN_COT_THEME]
 Name=Barebones v1.0
-Schemes=default:Default
+Schemes=bootstrap:Default
 [END_COT_THEME]
 ==================== */
 
