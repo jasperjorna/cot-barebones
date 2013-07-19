@@ -4,21 +4,26 @@
 <head>
 <title>{MESSAGE_TITLE}</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Cotonti http://www.cotonti.com" />
+<meta name="generator" content="{PHP.cfg.maintitle}" />
 {MESSAGE_BASEHREF}
-{MESSAGE_STYLESHEET}
+<link href="{PHP.cfg.themes_dir}/{PHP.usr.theme}/css/bootstrap.css" type="text/css" rel="stylesheet" />
+<link href="{PHP.cfg.themes_dir}/{PHP.usr.theme}/css/style.css" type="text/css" rel="stylesheet" />
+<link href="{PHP.cfg.themes_dir}/{PHP.usr.theme}/css/message.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="{PHP.cfg.themes_dir}/{PHP.usr.theme}/js/bootstrap.js"></script>
+<script type="text/javascript" src="{PHP.cfg.themes_dir}/{PHP.usr.theme}/js/js.js"></script>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 <body>
-<div id="main" class="body">
-  <div class="col first">
-    <div class="block">
-      <h2 class="warning">{MESSAGE_TITLE}</h2>
-      <div class="warning">
-        {MESSAGE_BODY}
-      </div>
-    </div>
-  </div>
-</div>
+<div class="container-narrow">
+  <div class="jumbotron">
+    <h1>{MESSAGE_TITLE}</h1>
+    <p class="lead">{MESSAGE_BODY}</p>
+    <hr>
+  </div><!-- /.jumbotron -->
+</div><!-- /.container-narrow -->
 </body>
 </html>
 <!-- END: MAIN -->
